@@ -16,6 +16,21 @@ Passionate beginner front-end developer with a strong desire to learn and grow i
 ## My projects
 1. Weather website https://weather-app-by-anastasiia-yatsenko.netlify.app
 2. My portfolio https://anastasiia-yatsenko-developer.netlify.app
+## Code examples
+
+
+
+
+    function formatDay(timestamp) {
+      let date = new Date(timestamp * 1000);
+      let day = date.getDay();
+      let daysOfWeek = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+      return daysOfWeek[day];
+    }
+    
+    
+    
+    
 ## Education
 Bachelor degree of Finance and Credit at Bila Tserkva Institute for Economics and Management at **Higher Educational Establishment "Open International University of Human Development "Ukraine"**
 ## Courses
