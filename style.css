@@ -67,13 +67,18 @@ padding: 0 20px 10px 20px;
   margin-top: 0;
   font-size: 18px;
   color: gray;
+  list-style-type: none;
+}
+
+.languages-list, .courses-list {
+  list-style-type: square;
 }
 
 .footer {
   text-align: center;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   gap: 30px;
   margin-top: 10px;
@@ -83,22 +88,12 @@ padding: 0 20px 10px 20px;
   width: 80px;
 }
 
-.fa-brands {
-  font-size: 30px;
-}
-
-.fa-brands:hover {
-  color: blue;
-  font-size: 45px;
-}
-
 .logo:hover {
   width: 100px;
 }
 
 .date:hover {
   font-size: 18px;
-  color: blue;
 }
 
 a:hover {
